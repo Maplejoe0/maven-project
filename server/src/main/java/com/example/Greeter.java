@@ -1,4 +1,5 @@
 package com.example;
+package-info.java file
 
 public class Greeter {
   public Greeter() {
