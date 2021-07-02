@@ -20,8 +20,10 @@ public class TestGreeter {
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
+    String someone2 = "Worldyyyyyy";
 
-    assertThat(greeter.greet(someone), containsString(someone));
+    //assertThat(greeter.greet(someone), containsString(someone));
+    assertThat(greeter.greet(someone), containsString(someone2));
   }
 
   @Test
